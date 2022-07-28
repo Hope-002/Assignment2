@@ -1,6 +1,10 @@
-Dice
+Write a java Program for a game of dice is to be simulated for two players; Each 
+Players get a chance to throw his dice
+
+
 
 import java.util.*;
+
 public class Main
 {
 	public static void generateRandomNumber()
