@@ -1,4 +1,6 @@
-Sum of the unit digit 
+Write a java program to initialize three int variables a, b and c with 234, 456 and 712 and store the sum 
+of the last digits of the variables.
+
 
 import java.util.*;
 
