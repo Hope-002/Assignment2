@@ -1,0 +1,20 @@
+ Area of Polygon
+
+import java.util.*;
+import java.lang.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    Scanner in = new Scanner(System.in);
+	    System.out.println("Enter the no of sides");
+	    int n = in.nextInt();
+	    System.out.println("Enter Length of a sides");
+	    double s = in.nextDouble();
+	    double angle = Math.toRadians(180/n);
+	    angle = Math.tan(angle);
+	    double area = ((n*s*s)/(4*angle));
+	    System.out.println(area);
+	}
+}
+
